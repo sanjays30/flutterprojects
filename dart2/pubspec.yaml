@@ -1,0 +1,17 @@
+name: dart2
+description: A sample command-line application.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: Your Name <email@example.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+
+#dependencies:
+#  path: ^1.4.1
+
+dev_dependencies:
+  test: ^1.2.0
+  build_runner: ^0.10.0
