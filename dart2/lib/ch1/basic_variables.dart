@@ -1,11 +1,15 @@
 
-//this is main function
+/**Every app must have a top-level main() function, 
+which serves as the entrypoint to the app. The main() function 
+returns void and has an optional List<String> parameter for arguments.
+*/
 main(List<String> arguments) {
   basicDataTypes();
   //nullDiscussion();
   //varAndConstant();
 }
-
+//const and final
+//const assignment has to be immutable
 void varAndConstant() {
   var status = "assigned";
   const initialStatus = "new";

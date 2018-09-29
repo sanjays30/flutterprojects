@@ -9,11 +9,12 @@ void aboutCollectionTypeList() {
   //multiple ways to instantiate list
   //List orderList2 = List();
   //List orderList3 = [];
-  orderList.add("headphone");
-  orderList.add("cellohone");
+  orderList.add('Kidle Paperwhite');
+  orderList.add('Fire HD 10');
   print(orderList);
 
-  orderList..add("headphone")..add("cellohone");
+  //cascade notation
+  orderList..add('Echo Dot')..add('Macbook Pro 15');
   print(orderList);
 }
 

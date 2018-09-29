@@ -7,7 +7,7 @@ main(List<String> args) {
   user.createdOn = DateTime.now();
   print(user.id);
 }
-
+//inheritence with mixin
 class AuthenticatedUser extends User with Audit {
   String idToken;
   DateTime tokenExpiryTime;
