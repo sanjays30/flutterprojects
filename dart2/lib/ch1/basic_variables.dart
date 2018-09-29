@@ -1,41 +1,15 @@
-
 /**Every app must have a top-level main() function, 
 which serves as the entrypoint to the app. The main() function 
 returns void and has an optional List<String> parameter for arguments.
 */
+/// doc comment
+// regular single line comment
 main(List<String> arguments) {
-  basicDataTypes();
-  //nullDiscussion();
-  //varAndConstant();
-}
-//const and final
-//const assignment has to be immutable
-void varAndConstant() {
-  var status = "assigned";
-  const initialStatus = "new";
-  print(status.runtimeType);
-  print(' Initial Status ${initialStatus} and current status ${status}');
-}
-
-void nullDiscussion() {
-  //Null is an object as well
-  //Even null is an object or type Null class
-  print(null.runtimeType);
-  //you can even define variable of type Null, No Null pointer exception
-  Null empty = null;
-  print(empty.runtimeType);
-}
-
-void basicDataTypes() {
-  var itemName;
+  String itemName="Headphone";
   int quantity;
   double price;
   bool expediteShipping;
 
-  //since we assigned null the runtime type of assigned object remains Null
-  print(itemName.runtimeType);
-
-  itemName = "headphone";
   //now we assigned it a string object value so type will be String
   print(itemName.runtimeType);
   //int is a class

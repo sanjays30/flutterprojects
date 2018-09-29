@@ -7,6 +7,7 @@ main(List<String> args) {
   user.createdOn = DateTime.now();
   print(user.id);
 }
+
 //inheritence with mixin
 class AuthenticatedUser extends User with Audit {
   String idToken;
@@ -29,4 +30,12 @@ class User {
   final String email;
 
   User(this.id, this.email);
+}
+
+class OAthUser implements User {
+  @override
+  String get email => null;
+
+  @override
+  String get id => null;
 }

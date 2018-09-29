@@ -21,7 +21,7 @@ main(List<String> args) {
   } catch (exception) {
      print(exception);
   }
-  //even arbitrary objects can be thrown as exception
+  //fun fact: even arbitrary objects can be thrown
   try {
     throw ["some random error","do something"];
   } catch (exception) {

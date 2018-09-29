@@ -1,9 +1,5 @@
 
 main(){
-  aboutCollectionTypeList();
-}
-
-void aboutCollectionTypeList() {
   //List contains ordered list
   List orderList = new List();
   //multiple ways to instantiate list

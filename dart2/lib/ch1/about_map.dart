@@ -1,8 +1,5 @@
 main(List<String> args) {
-  aboutCollectionTypesMap();
-}
-void aboutCollectionTypesMap() {
-  /***** Map learning section */
+   /***** Map learning section */
   //Map can hold key value pair
   Map map = new Map();
   print(map.runtimeType);
