@@ -1,4 +1,6 @@
+//practice control flow
 main(List<String> args) {
+  //declare some variables
   bool expediteShipping = false;
   DateTime orderDate = DateTime.now();
   DateTime shippingDate;
